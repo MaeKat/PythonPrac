@@ -146,3 +146,27 @@ print(capitals)
 print("Length")
 print(len(capitals))
 
+#Dictionary functions
+print("Capitals Items")
+print(capitals.items())
+print("Capitals Keys")
+print(capitals.keys())
+print("Capitals Values")
+print(capitals.values())
+
+
+#Looping
+
+for key in capitals.keys():print(key)
+
+for value in capitals.values():print(value)
+
+for key, value in capitals.items():print(key,value)
+
+for key, value in capitals.items():print(value,key)
+
+    #Read write from file
+ 
+
+ 
+            

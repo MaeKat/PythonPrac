@@ -18,6 +18,7 @@ else:
   print("Time to relax!")
 #more if else checkes the grade based off the num in class
 
+#Allows usesr to input multiple grades to be assessed and then averaged
 gradeSum = 0
 totalGrades = int(input("Enter number of grades that are to be assessed: "))
 gradeNum = totalGrades
